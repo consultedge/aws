@@ -1,6 +1,3 @@
-// AWS Workshop Configuration File
-// AI for Bharat – Image Editing Workshop
-
 window._workshopConfig = {
   cognito: {
     userPoolId: 'ap-south-1_2rJUAB5Mo',
@@ -8,9 +5,8 @@ window._workshopConfig = {
     region: 'ap-south-1'
   },
   api: {
-    invokeUrl: 'https://cjbj03sjbl.execute-api.ap-south-1.amazonaws.com'
+    invokeUrl: 'https://cjbj03sjbl.execute-api.ap-south-1.amazonaws.com/edit-image'
   }
 };
 
-// Configuration validation flag
 window._configLoaded = true;
